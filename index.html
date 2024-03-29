@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Oscilador</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/unicons.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/oscilador.js"></script>
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div><h2>Oscilador</h2></div>
+        <div class="col-12 text-center mt-3 mb-3">
+          <input
+            class="col-4"
+            type="text"
+            value="440"
+            id="controlDeFrecuenciaTexto"
+            style="display: inline-block; width: 30%; max-width: 100px"
+          />
+          <p
+            class="col-2"
+            style="display: inline-block; width: 30%; max-width: 50px"
+          >
+            Hz
+          </p>
+        </div>
+
+        <div class="col-12 text-center mt-3 mb-3">
+          <span style="display: inline-block; width: 30%; max-width: 50px"
+            >20 Hz</span
+          >
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            value="0.5"
+            id="controlDeFrecuenciaRango"
+            oninput="cambioDeFrecuencia(event.target.value)"
+            style="display: inline-block; width: 40%; max-width: 200px"
+          />
+          <span style="display: inline-block; width: 30%; max-width: 50px"
+            >20000Hz</span
+          >
+        </div>
+        <div class="col-12 text-center mt-3">
+            <button id="playButton" class="btn btn-secondary">
+                Play
+              </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <p class="copyright-text text-center">Copyright &copy; 2024</p>
+            <p class="copyright-text text-center">
+              Designed by <a rel="nofollow" href="#">Juan Amieva</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
