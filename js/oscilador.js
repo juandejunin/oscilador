@@ -6,9 +6,14 @@ window.onload = function () {
   var contextoDeAudio = new AudioContext();
   var estaReproduciendo = false;
   var nodoFuente = null;
+  var frecuencia = 220
+
 
   // Alterna la reproducción de un oscilador en el navegador
   function alternarOscilador() {
+    var control = document.getElementById("controlDeFrecuenciaRango");
+    frecuencia = control.value;
+    console.log(frecuencia)
     if (estaReproduciendo) {
       // Detiene la reproducción y retorna
       nodoFuente.stop(0);
@@ -18,7 +23,7 @@ window.onload = function () {
     }
 
     nodoFuente = contextoDeAudio.createOscillator();
-    nodoFuente.frequency.value = 440; // Frecuencia predeterminada: 440 Hz
+    nodoFuente.frequency.value = frecuencia; // Frecuencia predeterminada: 440 Hz
     nodoFuente.connect(contextoDeAudio.destination);
     nodoFuente.start(0);
     estaReproduciendo = true;
