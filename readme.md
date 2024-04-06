@@ -1,5 +1,5 @@
 # Oscilador
-## ¡Bienvenido a Oscilador!
+## ¡Bienvenido a Oscilador!   https://juandejunin.github.io/oscilador/
 
 Oscilador es una aplicación web simple que te permite experimentar con tonos y frecuencias utilizando un oscilador de audio integrado en tu navegador. Con Oscilador, puedes ajustar la frecuencia del tono utilizando un control deslizante, un campo de entrada de texto o botones de aumento y disminución de frecuencia. Además, puedes reproducir el tono generado y experimentar con diferentes sonidos.
 
