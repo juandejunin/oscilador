@@ -1,3 +1,14 @@
+# Oscilador
+## ¡Bienvenido a Oscilador!
+
+Oscilador es una aplicación web simple que te permite experimentar con tonos y frecuencias utilizando un oscilador de audio integrado en tu navegador. Con Oscilador, puedes ajustar la frecuencia del tono utilizando un control deslizante, un campo de entrada de texto o botones de aumento y disminución de frecuencia. Además, puedes reproducir el tono generado y experimentar con diferentes sonidos.
+
+Características principales:
+Ajuste de la frecuencia del tono utilizando un control deslizante (rango), un campo de entrada de texto o botones de aumento y disminución.
+Reproducción del tono generado con el oscilador de audio integrado.
+Interfaz de usuario intuitiva y fácil de usar.
+¡Empieza a explorar y descubre las posibilidades sonoras con Oscilador!
+
 ## Explicación del Código
 
 1. **window.onload**: Esta es una función que se ejecuta cuando se carga completamente el documento HTML en el navegador. Dentro de esta función, se colocará todo el código que queremos que se ejecute una vez que la página esté lista.
